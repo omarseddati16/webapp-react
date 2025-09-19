@@ -23,7 +23,7 @@ function HomePage() {
             <div className="card m-3">
               <div className="card-body d-flex flex-column">
                 <h5 className="card-title">{film.title}</h5>
-                <img className="card-image" src={film.image} alt='' />
+                <img className="card-image" src={`http://localhost:3000/img/${film.image}`} alt='' style={{ width: '100%' }} />
                 <p className="card-text">{film.description}</p>
                 <Link to={`/films/${film.id}`} className="btn btn-primary ">
                   Dettagli
