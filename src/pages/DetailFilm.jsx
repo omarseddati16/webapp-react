@@ -1,11 +1,8 @@
 
-
-import React from 'react'
-
 function DetailFilm() {
   return (
     <div>
-
+      <h1>libro</h1>
     </div>
   )
 }
